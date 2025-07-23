@@ -1,10 +1,10 @@
 import { ArrowLeft } from "lucide-react";
-import ServiceCard from "./ServiceCard";
 import { useQuery } from "@tanstack/react-query";
 import { fetchData } from "../api/api";
 import LoadingSkeleton from "./loadingSkeleton";
 import ErrorMessage from "./errorMessage";
 import { Link } from "react-router-dom";
+import ServiceCard from "./ServiceCard";
 const baseUrl = import.meta.env.VITE_API_BASE_URL;
 
 const Home = () => {
